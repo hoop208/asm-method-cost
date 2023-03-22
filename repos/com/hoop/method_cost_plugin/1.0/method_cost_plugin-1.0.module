@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hoop",
+    "module": "method_cost_plugin",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "method_cost_plugin-1.0.jar",
+          "url": "method_cost_plugin-1.0.jar",
+          "size": 20925,
+          "sha512": "ed78bdfc6b69ba8ba194eb30ff36f03368508a1a4d178506656307cfd50dcb51ed766126c9c89fa16381d7694473c0e8528371b0cec1c6bdf408036ce6991a2f",
+          "sha256": "07c1ca48617fbb738755a4ed99bb1cc7364a3a99230ebfc14e634e9a44261a32",
+          "sha1": "6ceb58821e8ae06fcae59e4c26183f067364a6ca",
+          "md5": "eac1a238954c9476a2dc7a3417b3fb0a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle-api",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "method_cost_plugin-1.0.jar",
+          "url": "method_cost_plugin-1.0.jar",
+          "size": 20925,
+          "sha512": "ed78bdfc6b69ba8ba194eb30ff36f03368508a1a4d178506656307cfd50dcb51ed766126c9c89fa16381d7694473c0e8528371b0cec1c6bdf408036ce6991a2f",
+          "sha256": "07c1ca48617fbb738755a4ed99bb1cc7364a3a99230ebfc14e634e9a44261a32",
+          "sha1": "6ceb58821e8ae06fcae59e4c26183f067364a6ca",
+          "md5": "eac1a238954c9476a2dc7a3417b3fb0a"
+        }
+      ]
+    }
+  ]
+}

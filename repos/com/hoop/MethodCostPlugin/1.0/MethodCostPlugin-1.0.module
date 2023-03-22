@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hoop",
+    "module": "MethodCostPlugin",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "MethodCostPlugin-1.0.jar",
+          "url": "MethodCostPlugin-1.0.jar",
+          "size": 16091,
+          "sha512": "bcd0ab3c6086161a3f670c36d5398e9b034a3637a2a07d4863ce1aa838a6f63a08ee17e70500215303175bae74b33bdb5a27612133d1c1a03c574a2c89a3983d",
+          "sha256": "9d5d25adb86bea9cf477bf54b4ddee72b1053f0e0eee67f4535f16d34f250c70",
+          "sha1": "070da98b8573c9c50b2710b7df1a1ada55d872e8",
+          "md5": "04feca23566b532b96df9f2e45ba8d3f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle-api",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MethodCostPlugin-1.0.jar",
+          "url": "MethodCostPlugin-1.0.jar",
+          "size": 16091,
+          "sha512": "bcd0ab3c6086161a3f670c36d5398e9b034a3637a2a07d4863ce1aa838a6f63a08ee17e70500215303175bae74b33bdb5a27612133d1c1a03c574a2c89a3983d",
+          "sha256": "9d5d25adb86bea9cf477bf54b4ddee72b1053f0e0eee67f4535f16d34f250c70",
+          "sha1": "070da98b8573c9c50b2710b7df1a1ada55d872e8",
+          "md5": "04feca23566b532b96df9f2e45ba8d3f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "classNameList": [
+    "com.example.asm_method_cost.Test",
+    "com.example.asm_method_cost.MainActivity"
+  ],
+  "methodNameList": [
+    "test",
+    "mainTest",
+    "objectReturn"
+  ]
+}
